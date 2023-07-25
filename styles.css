@@ -1,0 +1,83 @@
+body {
+    font-family: sans-serif;
+    min-width: 600px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scale: 0.8;
+}
+
+header img{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* три ссылки */
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px ;
+}
+
+.box div a{
+    text-decoration: none;
+    border-bottom: 5px solid black;
+    font-size: 20px;
+    color: black;
+    padding-bottom: 5px;
+    margin: 0px 40px;
+}
+
+/* изображения */
+.boximg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boximg img {
+    border-left: 10px dotted black;
+    padding-left: 5px;
+    margin: 0px 25px;
+    height: 120px;
+}
+
+h1 {
+    font-size: 54px;
+    text-align: center;
+    margin: 50px 0px;
+    font-weight: 500;
+}
+
+/* параграф */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 30px 60px;
+}
+
+.paragraph {
+    width: 640px;
+    margin: 0px 30px
+}
+
+footer {
+    background-color: black;
+    padding: 5px 0px;
+}
+
+footer p {
+    color: rgb(0, 0, 0);
+    background-color: white;
+    margin: 10px 10px;
+    padding: 5px;
+    font-size: 20px;
+    width: 260px;
+}
